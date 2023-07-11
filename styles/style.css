@@ -6,5 +6,93 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin-left: 10%;
+  margin-top: 5%;
+  background-image: linear-gradient(to bottom, #034e8a 50%, white 50%);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.section1 {
+  padding-left: 15%;
+
+}
+
+.section2 {
+  padding-left: 15%;
+  width: 40%;
+}
+
+.ground {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  padding-right: 20%;
+  margin-right: 10%;
+  background-color: white;
+  padding-left: %;
+}
+
+.title {
+  font-size: 35px;
+  color: #1c5380;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+.text {
+  padding-right: 5%;
+  margin-left: 15%;
+  padding-bottom: 5%;
+  font-size: 20px;
+
+
+}
+
+.login {
+  width: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  background-image: linear-gradient(to bottom, transparent, #00294b 1%, white 99%);
+  color: white;
+
+}
+
+.logos {
+  margin-left: 10%;
+  width: 50%;
+}
+
+.logos1 {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.photos {
+
+  width: 60%;
+  height: 30%;
+  margin-top: 5%;
+}
+
+.firstbox {
+
+  width: 150%;
+}
+
+.end {
+  color: #1c5380;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2%;
+  word-spacing: 18px;
+}
+
+.end a {
+  text-decoration: none;
 }
